@@ -1,0 +1,19 @@
+.footerText {
+  margin-bottom: 0;
+  margin-top: 5px;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+}
+footer {
+  background: linear-gradient(28deg, #c54242, #391414);
+}
+#themeToggle {
+  color: white;
+  background: none;
+  border: none;
+}
+#themeToggle:hover {
+  cursor: pointer;
+  color: aqua;
+}
