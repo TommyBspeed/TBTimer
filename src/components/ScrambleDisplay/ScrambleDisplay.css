@@ -1,0 +1,9 @@
+.scrambleBox {
+  display: flex;
+  flex-direction: column;
+  background: lightgray;
+  align-items: center;
+}
+.regenerateButton {
+  max-width: 250px;
+}

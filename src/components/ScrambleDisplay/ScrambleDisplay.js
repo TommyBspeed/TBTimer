@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import "./ScrambleDisplay.css";
 
 const ScrambleGenerator = () => {
   const moves = ["U", "D", "L", "R", "F", "B"];
   const modifiers = ["", "'", "2"];
 
   const generateScramble = () => {
-    const scrambleLength = 20; // Adjust the length of the scramble as needed
+    const scrambleLength = 20;
     let scramble = [];
 
     for (let i = 0; i < scrambleLength; i++) {
@@ -26,9 +27,11 @@ const ScrambleGenerator = () => {
   };
 
   return (
-    <div>
+    <div className="scrambleBox">
       <h2>Scramble: {scramble}</h2>
-      <button onClick={regenerateScramble}>Regenerate Scramble</button>
+      <button className="regenerateButton" onClick={regenerateScramble}>
+        Regenerate Scramble
+      </button>
     </div>
   );
 };

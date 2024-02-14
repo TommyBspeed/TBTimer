@@ -6,25 +6,34 @@
   margin-bottom: 20px;
 }
 
-.timer-box {
+.timerbox {
   background-color: #656262;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 50%;
+}
+
+.resetButton {
+  max-width: 250px;
+}
+.cacheBox {
+  padding: 5px;
+  border: solid 5px white;
   display: flex;
-  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
 }
 
-.timer-box h1 {
-  font-size: 36px;
-  margin: 0;
+.averagesBox {
+  padding: 5px;
+  border: solid 5px white;
+  display: flex;
+  align-items: flex end;
+  width: 25%;
 }
-
-.timer-box p {
-  font-size: 14px;
-  margin: 0;
-  color: #888;
+.solvesCache {
+  position: relative;
+  left: 10px;
 }
 
 ul {
